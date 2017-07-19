@@ -1,0 +1,33 @@
+{
+	"index.html": {
+		"resources": [
+			"css/app.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"pages/home.html"
+		],
+		"refer": [
+			"pages/home.html",
+			"pages/setting.html"
+		]
+	},
+	"pages/home.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"pages/chart1.html"
+		],
+		"refer": [
+			"pages/chart1.html"
+		]
+	},
+	"pages/chart1.html": {
+		"resources": [
+			"libs/echarts-all.js",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
+}
