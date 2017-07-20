@@ -12,7 +12,7 @@
 		<div class="mui-content">
 			<ul id="gotochart" class="mui-table-view mui-grid-view mui-grid-9">
 				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-					<a href="chart1.html">
+					<a data-href="chart1.html">
 						<span class="mui-icon mui-icon-home"></span>
 						<div class="mui-media-body">某项监控</div>
 					</a>
@@ -22,11 +22,10 @@
 		<script src="../js/mui.min.js"></script>
 		<script type="text/javascript">
 			mui('#gotochart').on('tap', 'a', function() {
-				var id = this.getAttribute('href');
-				var href = this.href;
+				var href = this.dataset.href;
 				mui.openWindow({
-					id: id,
-					url: this.href,
+					id: href,
+					url: href,
 					styles: {
 						top:'0px',
 						bottom:'0px',
