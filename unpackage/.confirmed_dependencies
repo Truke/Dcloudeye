@@ -20,14 +20,21 @@
 			"pages/chart1.html"
 		],
 		"refer": [
-			"pages/chart1.html"
+			"pages/chart1.html",
+			"pages/chart2.html"
 		]
 	},
 	"pages/chart1.html": {
 		"resources": [
 			"libs/echarts-all.js",
 			"js/mui.min.js",
-			"css/mui.min.css"
+			"css/mui.min.css",
+			"libs/echarts.min.js"
+		]
+	},
+	"pages/chart2.html": {
+		"resources": [
+			"libs/echarts.min.js"
 		]
 	}
 }

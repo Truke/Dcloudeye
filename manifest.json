@@ -222,14 +222,24 @@
 					"css/mui.min.css",
 					"pages/chart1.html"
 				],
-				"refer": [],
+				"refer": [
+					"pages/chart2.html"
+				],
 				"priority": 0
 			},
 			"pages/chart1.html": {
 				"resources": [
 					"libs/echarts-all.js",
 					"js/mui.min.js",
-					"css/mui.min.css"
+					"css/mui.min.css",
+					"libs/echarts.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/chart2.html": {
+				"resources": [
+					"libs/echarts.min.js"
 				],
 				"refer": [],
 				"priority": 0
