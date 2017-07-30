@@ -1,0 +1,3 @@
+# Dcloudeye
+This is to write a simple app with dcloud and echart.
+这是基于DCloud的一个练习，混合式开发APP。还没想好，具体做什么，暂时搁置...
